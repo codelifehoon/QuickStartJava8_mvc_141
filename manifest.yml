@@ -1,0 +1,7 @@
+domain: cfapps.io
+memory: 512M
+instances: 1
+applications:
+- name: QuickStartJava8_mvc_141
+  host: QuickStartJava8_mvc_141
+  path: ./build/libs/QuickStartJava8_mvc_141.war
